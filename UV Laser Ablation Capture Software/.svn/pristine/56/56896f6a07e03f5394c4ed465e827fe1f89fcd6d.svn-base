@@ -1,0 +1,26 @@
+[Communication]
+XPSPort = 192.168.254.254
+
+[XPS]
+InitialVelocity = 1
+Acceleration = 20
+First axis group = 0
+Second axis group = 2
+Axis 1 direction = TRUE
+Axis 2 direction = TRUE
+
+[LASER]
+VISA = COM4
+Delay = 500
+
+[ROI Processing]
+Pixel Size = 0.390000    
+Heigth step divider = 2    
+Precision (%) = 60.000000    
+Sampling speed = 100    
+Width = 50    
+Height = 50    
+X offset = 510    
+Y offset = 660    
+X translation = 118.172000    
+Y translation = 1.695000    
